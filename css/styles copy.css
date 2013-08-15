@@ -1,0 +1,114 @@
+/*  
+
+	My Custom Styles
+
+*/
+
+/* Pull in Bootstrap default styles */
+@import url(../css/bootstrap.css);
+
+/* Custom styles */
+a {
+	color: #A9C167;
+}
+
+/************* Navbar styles ****************/
+
+/* Change background color of navbar to white */
+.navbar .navbar-inner {
+	background:white;
+}
+
+/* Change color of links in navbar */
+.navbar .nav > li > a {
+	color: #A9C167;  
+	text-shadow: none;
+}
+ 
+.navbar .nav > li > a:hover {
+	color: #193f11;
+}
+
+/* Change brand text color */
+.navbar .brand {
+	color: #A9C167;
+}
+
+/* Change "active" link hover background and text color */
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+	background-color: #A9C167;
+	color: white;
+}
+
+/* Change color of links in dropdown menus */ 
+.dropdown-menu > li > a {
+	color: #A9C167;
+}
+
+.dropdown-menu > li > a:hover {
+	color: white;
+	background-color: #A9C167;
+}
+
+/* Change caret color */
+.green-caret {
+	border-top-color: #A9C167 !important;
+	border-bottom-color: #A9C167 !important;
+}
+
+/* Search bar */
+.navbar-search .search-query {
+	background-color: #A9C167;
+	border: none;
+}
+
+/* Change color of drop shadow on bottom of navbar */
+.navbar-inner {
+	-webkit-box-shadow: 0 1px 3px rgba(169, 193, 103, 0.25), inset 0 -1px 0 rgba(169, 193, 103, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(169, 193, 103, 0.25), inset 0 -1px 0 rgba(169, 193, 103, 0.1)
+	box-shadow: 0 1px 3px rgba(169, 193, 103, 0.25), inset 0 -1px 0 rgba(169, 193, 103, 0.1);
+}
+
+/************* Hero Unit styles ***************/
+.hero-unit {
+	background: url(../img/bg_original.png) no-repeat center;
+}
+
+.hero-unit h1 {
+	color: rgb(255,255,255);
+}
+
+.hero-unit p {
+	padding: 10px 0 0 0;
+	color: white;
+	width:60%;
+}
+
+.btn-custom {
+  background-color: hsl(110, 56%, 16%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A9C167", endColorstr="#193f11");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#A9C167), to(#193f11));
+  background-image: -moz-linear-gradient(top, #A9C167, #193f11);
+  background-image: -ms-linear-gradient(top, #A9C167, #193f11);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A9C167), color-stop(100%, #193f11));
+  background-image: -webkit-linear-gradient(top, #A9C167, #193f11);
+  background-image: -o-linear-gradient(top, #A9C167, #193f11);
+  background-image: linear-gradient(#A9C167, #193f11);
+  border-color: #193f11 #193f11 hsl(110, 56%, 11%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+/****************** Img Hack *******************/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/****************** Row Columns *******************/
+.green {
+	color: #A9C167;
+}

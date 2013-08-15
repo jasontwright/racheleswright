@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.8.2//EN
+N:Wright;Rachel E.S.;;;
+FN:Rachel E.S. Wright
+ORG:Rachel E.S. Wright\, Inc.;
+TITLE:Psychotherapist
+EMAIL;type=INTERNET;type=WORK;type=pref:rachel@racheleswright.com
+TEL;type=WORK;type=VOICE;type=pref:(312) 508-3435
+ADR;type=WORK;type=pref:;;3166 North Lincoln Avenue\nSuite 205;Chicago;IL;60657;
+item1.URL;type=pref:www.racheleswright.com
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:50751052-ac40-4ba4-9d00-f5d93a447d17
+X-ABUID:EA821020-20B6-4A6B-AA81-D33C4C77757A:ABPerson
+END:VCARD
